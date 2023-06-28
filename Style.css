@@ -225,9 +225,15 @@ input[type=text]{
 
 
 
-@media screen and (250< width < 500){
+@media screen and (250px < width < 500px){
 
-    .task-new1{
+    .circle a{  
+        position:absolute;
+        top:105px;
+        right: 45%;  
+    }
+
+    p.task-new1{
         display: none;
     }
 
